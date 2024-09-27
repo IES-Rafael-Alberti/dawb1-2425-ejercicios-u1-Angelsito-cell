@@ -1,7 +1,8 @@
 print("Horas de trabajo: ")
-horas = float(input())
+horas = int(input())
+
 print("Coste por horas: ")
-coste =  float(input())
+coste =  int(input())
 
 Importe = horas * coste
 
