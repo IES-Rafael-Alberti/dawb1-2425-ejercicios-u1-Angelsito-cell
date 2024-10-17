@@ -4,4 +4,4 @@ unidades = int(input("Dame el número de unidades que hay del producto: "))
 
 preciofinal = precio/unidades
 
-print(f'{nombre} cuesta {preciofinal:.2f}, tienes una cantidad de {unidades} unidades y todo cuesta {precio} euros')
+print(f'{nombre} cuesta {preciofinal:.2f}, tienes una cantidad de {unidades} unidades y todo cuesta {precio}')

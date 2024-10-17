@@ -1,13 +1,13 @@
 def leer_numero(mensaje):
     return int(input(mensaje))
 
-def verificar_numeros_iguales(num1: int, num2: int):
+def verificar_numeros_iguales(num1, num2):
      return num1 == num2
 
 def calcular_numeros_entre(num1, num2):
     if num1 > num2:
         num1, num2 = num2, num1
-    return len(range(num1 + 1, num2))
+    return len(range(num1, num2))
 
 def mostrar_resultado(num1, num2):
     menor = min(num1, num2)
