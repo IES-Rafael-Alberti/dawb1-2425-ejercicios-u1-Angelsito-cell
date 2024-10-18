@@ -1,12 +1,14 @@
-def horario(total):
-    return f"Importe total: {total} €"
+def horario(h, c):
+
+    t = h*c
+    return f"Importe total: {t} €"
 
 
 def main():
     h = int(input("Introduzca las horas realizadas: "))
     c = int(input("Introduzca el coste por hora: "))
-    t = h * c
-    print(horario(h, c, t))
+    
+    print(horario(h, c))
 
 
 if __name__ == "__main__":
