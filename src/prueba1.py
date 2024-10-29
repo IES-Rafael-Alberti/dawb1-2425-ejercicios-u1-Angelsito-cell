@@ -15,7 +15,7 @@ def main():
     resultado = mayor_numero(a, b)
 
     if resultado == 0: 
-        print("Los número son iguales")
+        print("Los números son iguales")
     else: 
         print(f"El número mayor es: {resultado}" )
 
